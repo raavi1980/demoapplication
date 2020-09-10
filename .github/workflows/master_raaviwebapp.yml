@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'raaviwebapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3bc996040898494badce80d1283da37a }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f255a82e1af34565ae41b0fef17be677 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
